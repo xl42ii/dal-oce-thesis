@@ -23,9 +23,9 @@ developed a set of LaTeX style sheets. These have been in continual
 development for a couple of decades, so they have passed through many
 hands. </p>
 
-<p> The present version of <tt>ocethesis.cls</tt>
+<p> The present version of <span class="tt">ocethesis.cls</span>
 is based very closely on the Department of Computer Science 
-<tt>dalcsthesis.cls</tt> style file, which is so well
+<span class="tt">dalcsthesis.cls</span> style file, which is so well
 described at <a
 href="http://users.cs.dal.ca/~vlado/dalcsthesis/">http://users.cs.dal.ca/~vlado/dalcsthesis/</a>
 that any sensible reader of the present document will follow the
@@ -36,7 +36,7 @@ link. </p>
 <p>First,
 download <a href="http://github.com/dankelley/dal-oce-thesis/zipball/master">dal-oce-thesis.zip</a>
 and unzip it. Enter the directory that is thus created. There, you
-will see an example thesis file <tt>mythesis.tex</tt> (which uses
+will see an example thesis file <span class="tt">mythesis.tex</span> (which uses
 separate files for chapter 1, etc.). You should be able to run LaTeX
 on this file. If not, there is a problem that you will have to solve
 before proceeding any further. Once latex runs, you should run bibtex,
@@ -44,17 +44,17 @@ to link the citations. Then run latex two more times, to resolve the
 cross-links. The result should be a nicely formatted thesis, but one
 with some pretty odd content. The title will be
 <i>(Insert title here)</i>, and so on. This is placeholder text,
-chosen so that you can easily locate it in the <tt>mythesis.tex</tt>
+chosen so that you can easily locate it in the <span class="tt">mythesis.tex</span>
 file.</span>
 
 <p>The second step is to start modifying the placeholder text
-in <tt>mythesis.tex</tt> (or, better, a copy of this file), and to
+in <span class="tt">mythesis.tex</span> (or, better, a copy of this file), and to
 start changing the placeholder text. Also, start adding your
 references to the bibliography
-file, <tt>literature.bib</tt>.</p>
+file, <span class="tt">literature.bib</span>.</p>
 
 <p>Note that this sample file uses a figure, in the
-file <tt>figure1.pdf</tt>. You will need to find out how to work with
+file <span class="tt">figure1.pdf</span>. You will need to find out how to work with
 whatever type of figures your software creates. Do that and test it
 with this sample file, before going much further, since you will be
 able to save a lot of time by deciding on figure format from the
@@ -74,11 +74,11 @@ worry about formatting.</p>
 
 <li> Something is wrong with appendices. Cross-referencing seems not
 to work, and the appendices are not automatically entered into the
-table of contents. See the example file <tt>mythesis.tex</tt> for a
+table of contents. See the example file <span class="tt">mythesis.tex</span> for a
 workaround for the table of contents. Unfortunately, there is not yet
-a solution for cross-referencing; you will have to write e.g. <tt>(see
-appendix A)</tt> instead of <tt>(see
-appendix~\ref{appendix-name})</tt>
+a solution for cross-referencing; you will have to write e.g. <span class="tt">(see
+appendix A)</span> instead of <span class="tt">(see
+appendix~\ref{appendix-name})</span>
 
 </ul>
 
@@ -92,11 +92,11 @@ file.  (Thanks to Eric O., for this.)
 
 <li>Version 0.8 (released 2010-01-04) is as 0.7 except for two changes
 that should decrease the likelihood of excessive whitespace.  The
-first change, in the <tt>ocethesis.cls</tt> file, is to alter the
+first change, in the <span class="tt">ocethesis.cls</span> file, is to alter the
 spacing before and after all section headings is adjusted, to decrease
 the incidence of excessive whitespace that can occur near unbreakable
-items.  The second, in the <tt>mythesis.tex</tt> document, is to use
-the <tt>\raggedbottom</tt> command, to move excessive space to the
+items.  The second, in the <span class="tt">mythesis.tex</span> document, is to use
+the <span class="tt">\raggedbottom</span> command, to move excessive space to the
 page bottom.
 
 <li>Version 0.7 (released 2009-03-30) is as 0.6 except that M.Sc. and
@@ -108,10 +108,10 @@ ugly whitespace in other parts of the document.
 Dedication and List of Symbols show up.
 
 <li>Version 0.5 (released 2008-07-16) is as 0.4 except that
-the <tt>\examiner{}</tt> works for MSc.
+the <span class="tt">\examiner{}</span> works for MSc.
 
 <li>Version 0.4 (released 2008-02-18) is as 0.3 except that
-the <tt>appendix</tt> package is used to get correct
+the <span class="tt">appendix</span> package is used to get correct
 cross-referencing.  Note that it seems that this must be high up in
 the inclusion list, so it is put at the top in the example file.
 
@@ -122,7 +122,7 @@ correct.
 are modified.
 
 <li>Version 0.1 is as 
-<tt>dalcsthesis.cls</tt> except that (a) the page height is adjusted
+<span class="tt">dalcsthesis.cls</span> except that (a) the page height is adjusted
 to make the margin below the page number be 1/2 inch, (b) upper/lower
 case is used in titles, (c) line breaks are changed in some
 boilerplate text (e.g. "Submitted in partial fulfillment")

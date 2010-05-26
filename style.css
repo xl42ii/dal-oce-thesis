@@ -11,7 +11,7 @@ body{
   font-style:normal;
 }
 
-tt{
+span.tt{
   font-family: monospace;
   background-color:#E0FFBB;
   border: #E0FFBB;
